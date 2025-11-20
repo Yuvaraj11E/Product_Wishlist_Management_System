@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class DBconnection {
     private static final String DB_URL = "jdbc:oracle:thin:@DESKTOP-C042DBS:1521/XE";
     private static final String USER = "yuvaraj";
-    private static final String PASS = "yuva2005";
+    private static final String PASS = "******";
     private static Connection con = null;
 
     public static Connection getConnection() throws SQLException {
@@ -21,3 +21,4 @@ public class DBconnection {
         }
     }
 }
+
