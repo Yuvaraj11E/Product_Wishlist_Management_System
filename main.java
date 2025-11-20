@@ -185,9 +185,7 @@ public class main {
                                     if (productDAO.addProduct(pid, pname, price, rating))
                                     {
                                         System.out.println("Product added successfully.");
-                                    } //else {
-                                        //System.out.println("Failed to add product. Product ID may already exist.");
-                                    //}
+                                    } 
                                     break;
                                 case 3:
                                     adminLoggedIn = false;
@@ -214,6 +212,7 @@ public class main {
         }
     }
 }
+
 
 
 
